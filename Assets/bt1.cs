@@ -8,7 +8,7 @@ public class bt1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int[] input = { 1, 3, 4, 5, 2, 4, 6, 9 };
+        int[] input = {7,0, 1, 3, 4, 5, 2, 4, 6, 9 };
         DisplayArray(input);
         BubbleSort(input);
         DisplayArray(input);
